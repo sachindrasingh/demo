@@ -32,7 +32,7 @@ app.get('/api/send', function (req, res){
 });
 
 //start the web server
-var server = app.listen('8080', function() {
+var server = app.listen(app.get('port'), function() {
     console.log('listening for requests sent to http://localhost:%s', server.address().port);
 });
 
