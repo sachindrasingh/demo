@@ -1,10 +1,16 @@
 {
-  "name": "socket-chat-example",
-  "version": "0.0.1",
-  "description": "my first socket.io app",
+  "name": "heroku-demo",
+  "version": "1.0.0",
+  "description": "heroku in-class demo",
+  "main": "server.js",
+  "author": "Staffan Hellman",
+  "contributors": [{ 
+    "name": "Dave Stearns",
+    "email": "dlsinfo@uw.edu"
+  }],
+  "license": "MIT",
   "dependencies": {
-    "express": "4.10.2",
-    "socket.io": "1.2.0",
-    "redis": "2.6.0-2"
+    "body-parser": "^1.9.3",
+    "express": "^4.10.2"
   }
 }

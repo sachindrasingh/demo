@@ -1,7 +1,4 @@
-# chat-example
+heroku-demo
+=========
 
-This is the source code for a very simple chat example used for 
-the [Getting Started](http://socket.io/get-started/chat/) guide 
-of the Socket.IO website.
-
-Please refer to it to learn how to run this application.
+Files for in-class demo of Heroku, using Node.js
